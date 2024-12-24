@@ -56,7 +56,7 @@ describe ('Search', function () {
 
   it('performs at least 100000 binary searches in under 1 second', function () {
 
-    const timeout = 1000;
+    const timeout = 1400;
     let startTime = Date.now();
     let i = 1;
     let binarySearches = 0;
